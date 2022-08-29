@@ -76,7 +76,7 @@ const HomeAdmin = () => {
         <div className="button-container">
             <div className="button" onClick={() =>{abrirModal4();cargarObservaciones()}}>
                 <FontAwesomeIcon className="icon" icon={faMessage} />
-               {/* <img src={Obser} alt="" /> */}
+               {/* <img src={Obser} alt="" /> /*/}
             </div>
             Observaciones empleados
         </div>
