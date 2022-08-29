@@ -1,0 +1,66 @@
+.HomeAdmin{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+   
+}
+.HomeAdmin h2{
+    font-size:48px;
+    padding-bottom:0;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.opciones{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    min-width: 1000px;
+    min-height: 400px;
+    gap:25px;
+  
+}
+.opciones button{
+    min-width: 250px;
+    height:50px;
+}
+.button-container{
+    display:flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: bold;
+    justify-content:center;
+    align-items:center;
+    gap: 20px;
+    
+}
+.button{
+    width: 160px;
+    height: 160px;
+    border: 1px solid blue;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+   
+    
+}
+.HomeAdmin .button:hover{
+    background-color: blue;
+    color:white;
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+    -webkit-transform: scale(1.1,1.1);
+    -moz-transform: scale(1.1,1.1);
+    -ms-transform: scale(1.1,1.1);
+    -o-transform: scale(1.1,1.1);
+}
+.icon{
+    font-size: 80px;
+}
